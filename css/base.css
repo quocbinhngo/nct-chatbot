@@ -1,0 +1,60 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+
+/* Variables */
+:root {
+	--color-secondary: #102437;
+	--color-primary: #9085d1;
+	--color-white: #fff;
+	--font-outfit: "Outfit", sans-serif;
+}
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	font-family: var(--font-outfit);
+	height: 100%;
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
